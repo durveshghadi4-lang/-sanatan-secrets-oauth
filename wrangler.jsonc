@@ -1,5 +1,23 @@
 {
   "name": "sanatan-secrets-oauth",
-  "main": "worker.js",
-  "compatibility_date": "2026-09-03"
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-04",
+
+  "vars": {
+    "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID"
+  },
+
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true
+    }
+  }
 }
