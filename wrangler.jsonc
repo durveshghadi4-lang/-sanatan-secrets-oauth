@@ -1,6 +1,6 @@
 {
   "name": "sanatan-secrets-oauth",
-  "main": "src/index.js",
+  "main": "worker.js",
   "compatibility_date": "2026-09-04",
 
   "vars": {
